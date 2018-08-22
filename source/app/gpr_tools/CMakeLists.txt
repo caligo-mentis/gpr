@@ -68,4 +68,5 @@ target_link_libraries( ${EXE_NAME} vc5_common common md5_lib expat_lib cJSON arg
 # set the folder where to place the projects
 set_target_properties( ${EXE_NAME}  PROPERTIES FOLDER app )
 
+# install executable
 install(TARGETS ${EXE_NAME} DESTINATION bin)
